@@ -145,11 +145,37 @@ header h1{
 }
 
 .instagram a::after{
-    background-color :#6dc993;
+    background-color :#8a3ab9;
 }
 
 @media (max-width: 950px){
     .container{
         width: 70%;
+    }
+    .tab{
+        display: block;
+        width: 100%;
+        border-bottom: 3px #333 solid;
+    }
+    .accordion{
+        display: block;
+        min-width: 450px;
+        height: auto;
+    }
+    .tab .content{
+        width: 85%;
+    }
+    .tab:hover{
+        width: 100%;
+    }
+}
+
+@media  (max-width: 680px){
+    .container{
+        width: 95%;
+    }
+    .accordion{
+        width: 100%;
+        min-width: 350px;
     }
 }
