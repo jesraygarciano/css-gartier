@@ -66,9 +66,18 @@ header h1{
     margin-bottom: 10px;
 }
 
-.tab .content h1{
+.tab .content p{
     color: #333;
-    font-size: 1.2rem;
+    font-size: .9rem;
     line-height: 1.4rem;
     padding-right: 30px;
 }
+
+/* Add Icons */
+
+.youtube a:before,
+.youtube a:after{
+    content: '\f213';
+}
+
+
