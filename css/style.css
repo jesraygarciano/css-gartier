@@ -11,8 +11,8 @@ body{
 
 @font-face{
     font-family: 'Genericons';
-    src: url('css/genericons-regular-webfont.woff')format('woff'),
-    url('css/genericons-regular-webfont.eot')format('truetype')
+    src: url('genericons-regular-webfont.woff')format('woff'),
+    url('genericons-regular-webfont.eot')format('truetype');
 }
 
 .container{
@@ -84,6 +84,13 @@ header h1{
     display: block;
     font: normal 30px Genericons;
     color: #fff;
+}
+
+.social a:after{
+    font-size: 48px;
+    padding-left: 20px;
+    padding-top: 80px;
+    margin-left: 85px;
 }
 /* Add Icons */
 
