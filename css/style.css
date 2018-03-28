@@ -53,6 +53,14 @@ header h1{
     width: 450px;
 }
 
+.tab:hover .social a:before{
+    margin-left: -100px;
+}
+
+.tab:hover .social a:after{
+    margin-left: -5px;
+}
+
 .tab .content{
     background: #fff;
     width: 360px;
@@ -75,6 +83,7 @@ header h1{
 
 .social a:before,
 .social a:after{
+    transition: all .4s ease-in-out .1s;
     width: 80px;
     height: 200px;
     position: absolute;
@@ -103,4 +112,44 @@ header h1{
     background-color :#ff0000;
 }
 
+.github a:before,
+.github a:after{
+    content: '\f200';
+}
 
+.github a::after{
+    background-color :#6e5494;
+}
+
+.twitter a:before,
+.twitter a:after{
+    content: '\f202';
+}
+
+.twitter a::after{
+    background-color :#6dc5dd;
+}
+
+.facebook a:before,
+.facebook a:after{
+    content: '\f204';
+}
+
+.facebook a::after{
+    background-color :#3b5998;
+}
+
+.instagram a:before,
+.instagram a:after{
+    content: '\f215';
+}
+
+.instagram a::after{
+    background-color :#6dc993;
+}
+
+@media (max-width: 950px){
+    .container{
+        width: 70%;
+    }
+}
